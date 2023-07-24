@@ -65,6 +65,7 @@ fun ComposeLoginTheme(
             window.statusBarColor = colorScheme.tertiary.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }
+
     }
 
     MaterialTheme(
